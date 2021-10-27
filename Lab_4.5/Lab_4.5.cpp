@@ -22,7 +22,7 @@ int main()
 		cout << "x= "; cin >> x;
 		cout << "y= "; cin >> y;
 
-		if ((x >= -R && x <= R && y >= 0 && y <= sqrt(R * R - x * x) && y <= x + R) || (x >= -R && x <= 0 && y <= 0 && y <= -sqrt(R * R - x * x)))
+		if ((x >= -R && x <= R && y >= 0 && y <= sqrt(R * R - x * x) && y <= x + R) || (x >= -R && x <= 0 && y <= 0 && y <= sqrt(R * R - x * x)))
 		{
 			cout << "Yes" << endl;
 		}
